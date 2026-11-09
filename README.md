@@ -41,7 +41,6 @@ script.js     - Lógica de interacción con Ollama
 ## Notas
 
 - Proyecto de prueba básica. No incluye historial de conversación ni modo streaming.
-- Para cambiar el modelo, edita la propiedad `model` en `script.js`.
 
 ## Licencia
 
