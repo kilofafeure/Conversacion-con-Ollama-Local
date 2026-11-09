@@ -1,10 +1,13 @@
 Chat con Ollama
 Un proyecto simple para probar Ollama en local, construido con HTML, CSS y JavaScript vanilla.
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
+
+\`\`\`
 ├── index.html      # Estructura principal
 ├── main.css        # Estilos
 └── script.js       # Lógica de interacción con Ollama
+\`\`\`
 
 * Requisitos previos
 Ollama instalado y corriendo en tu máquina
