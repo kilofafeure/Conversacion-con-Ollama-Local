@@ -43,11 +43,6 @@ script.js     - Lógica de interacción con Ollama
 - Proyecto de prueba básica. No incluye historial de conversación ni modo streaming.
 - Para cambiar el modelo, edita la propiedad `model` en `script.js`.
 
-## 📄 Licencia
+## Licencia
 
 Proyecto personal sin licencia.
-````Copiando ese bloque entero en tu `README.md` no debería volver a romperse: todas las listas van precedidas de línea en blanco, los bloques de código están bien cerrados y he evitado tablas y caracteres raros.
-
-Un último detalle que suele causar estragos: asegúrate de que el archivo se guarda con **saltos de línea LF** (no CRLF) y sin espacios extra antes de los `-`. En VS Code lo ves abajo a la derecha; si pone `CRLF`, cámbialo a `LF` y vuelve a subir.
-
-¿Se ve bien ya o sigue habiendo alguna sección suelta?
