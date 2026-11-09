@@ -28,13 +28,15 @@ El botón se deshabilita y se muestra un estado de "Pensando..."
 La respuesta se muestra en el área de resultados.
 Si hay un error de conexión, se muestra un mensaje de error.
 
-## API invocada
+## 🔌 API invocada
 
-Endpoint	http://localhost:11434/api/generate
-Método	POST
-Modelo	gemma4:e2b
-Streaming	false
-Content-Type	application/json
+| Propiedad | Valor |
+| --- | --- |
+| Endpoint | `http://localhost:11434/api/generate` |
+| Método | `POST` |
+| Modelo | `gemma4:e2b` |
+| Streaming | `false` |
+| Content-Type | `application/json` |
 
 ## Notas
 
