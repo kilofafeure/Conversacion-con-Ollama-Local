@@ -2,11 +2,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const txtPrompt = document.getElementById("prompt");
     const btnSend = document.getElementById("btnSend");
     const responseDiv = document.getElementById("response");
+    const modelSelector = document.getElementById("modelSelector");
 
     btnSend.addEventListener('click', async() => {
         const text = txtPrompt.value.trim();
         if (!text) return;
         
+        const selectedModel = modelSelector.value;
         btnSend.disabled = true;
         responseDiv.textContent = "Pensando...";
 
@@ -15,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 method: "POST",
                 headers: { "Content-Type": "application/json"},
                 body: JSON.stringify({
-                model: "gemma4:e2b",
+                model: selectedModel,
                 prompt: text,
                 stream: false,
                 })

@@ -11,6 +11,11 @@
 <body>
     <div class="container">
         <h1>Chat con Ollama</h1>
+        <label id="lblModelSelector" for="modelSelector">Selecciona un modelo:</label> 
+        <select id="modelSelector"> 
+            <option selected value="gemma4:e2b">gemma4:e2b</option> 
+            <option value="qwen2.5-coder:14b">qwen2.5-coder:14b</option> 
+        </select>
         <textarea id="prompt" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
         <div class="right">
             <button id="btnSend">Enviar</button>

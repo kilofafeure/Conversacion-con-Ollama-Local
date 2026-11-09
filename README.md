@@ -13,7 +13,7 @@ script.js     - Lógica de interacción con Ollama
 ## Requisitos previos
 
 - [Ollama](https://ollama.com/) instalado y corriendo en tu máquina
-- El modelo gemma4:e2b descargado:
+- Los modelos gemma4:e2b y qwen2.5-coder:14b descargados
 - Ollama debe estar ejecutándose en `http://localhost:11434`
 
 ## Cómo ejecutar
